@@ -52,7 +52,7 @@ fun ErrorScreen(modifier: Modifier = Modifier) {
 }
 
 /**
- * The home screen displaying photo grid.
+ * The home screen displaying completions view.
  */
 @Composable
 fun CompletionsScreen(completions: CompletionResponse, modifier: Modifier = Modifier) {

@@ -11,7 +11,7 @@ import retrofit2.http.POST
 interface OpenAIApiService {
     /**
      * Returns a [CompletionResponse] and this method can be called from a Coroutine.
-     * The @POST annotation indicates that the "photos" endpoint will be requested with the POST
+     * The @POST annotation indicates that the "completions" endpoint will be requested with the POST
      * HTTP method
      */
     @POST("v1/chat/completions")
