@@ -21,7 +21,7 @@ class DefaultAppContainer : AppContainer {
         val newRequest: Request = chain.request().newBuilder()
             .addHeader("Authorization", "Bearer $API_KEY")
             .addHeader("Content-Type", "application/json")
-            .addHeader("OpenAI-Organization", "org-e6U6oLRWsvyq9kZHJoJa7ZNG")
+            .addHeader("OpenAI-Organization", "Please enter your Organization ID here")
             .build()
         chain.proceed(newRequest)
     }.build()
